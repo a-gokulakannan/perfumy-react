@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*Navebar*/
+.nav{
+    padding-left: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.companyName{
+    font-size: 30px;
+}
+ul,li{
+    display: inline;
+    color: gray;
+}
+ul{
+    margin-right: 10%;
+    font-size: 20px;
+}
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/*Searchbox*/
+input{
+    width: 70%;
+    padding: 13px;
+}
+
+.searchbox{
+    padding: 20px;
+    text-align: center;
+}
+
+/*Product*/
+.product{
+    text-align: center;
+}
+.box{
+    text-align: center;
+    border: solid 2px black;
+    display: inline-block;
+    width: 220px;
+    margin: 20px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+
+/*About us*/
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/*Contanct*/
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
